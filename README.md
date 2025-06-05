@@ -2,7 +2,7 @@
 
 A simple serverless text-processing pipeline using AWS CDK.
 
-## 📦 Setup
+## Setup
 
 ```bash
 npm install
@@ -26,7 +26,7 @@ curl -X POST \
 
 ---
 
-### ✅ Notes & Considerations
+### Notes & Considerations
 
 - Replace `<your-api-id>` and region in the cURL with your actual values from CloudFormation/CDK output.
 - Ensure your MongoDB Atlas allows connections from your Lambda's IP range or VPC if used.
