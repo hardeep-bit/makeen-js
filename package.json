@@ -1,0 +1,22 @@
+{
+  "name": "text-processing-poc",
+  "version": "0.1.0",
+  "bin": {
+    "text-processing-poc": "bin/text-processing-poc.js"
+  },
+  "scripts": {
+    "build": "echo No build required",
+    "watch": "echo Watching not required",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0",
+    "dotenv": "^16.0.0",
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.100.0"
+  }
+}
