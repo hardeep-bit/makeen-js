@@ -2,7 +2,7 @@
   "name": "text-processing-poc",
   "version": "0.1.0",
   "bin": {
-    "text-processing-poc": "bin/text-processing-poc.js"
+    "text-processing-poc": "bin/makeen.js"
   },
   "scripts": {
     "build": "echo No build required",
